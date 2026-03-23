@@ -6,7 +6,7 @@ Early and accurate classification of breast cancer tumors is critical for effect
 The objective of this project is to build a machine learning model that can classify tumors as malignant or benign based on structured clinical features.
 
 ## Live Application 
-Users can input clinical features and receive real-time predictions.
+Users can input clinical features and receive real-time predictions powered by the XGBoost model.
 This project is deployed as a Streamlit web application: [![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-brightgreen)](https://breast-cancer-xgboost-app-yu88jyhseihqtfoymsxymm.streamlit.app/)
 
 
@@ -28,3 +28,11 @@ This project is deployed as a Streamlit web application: [![Live Demo](https://i
 - Improved performance to F1-score of 0.98 using ANN and XGBoost with hyperparameter tuning
 - Selected XGBoost for deployment due to comparable performance with ANN and better efficiency and interpretability
 - Deployed the final model as an interactive Streamlit application for real-time prediction
+
+## How to Run
+
+```bash
+git clone https://github.com/seoyeon3/Breast-Cancer-Classification.git
+cd Breast-Cancer-Classification
+pip install -r requirements.txt
+streamlit run app.py
