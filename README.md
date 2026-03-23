@@ -19,8 +19,8 @@ This project is deployed as a Streamlit web application: [![Live Demo](https://i
 2. Conducted exploratory data analysis (EDA) to understand feature distributions and relationships  
 3. Preprocessed data through feature scaling  
 4. Established a baseline model using Logistic Regression  [![Notebook](https://img.shields.io/badge/Notebook-Logistic%20Regression-blue)](https://github.com/seoyeon3/Breast-Cancer-Classification/blob/main/model1_Logistic_Regression.ipynb)
-5. Developed an Artificial Neural Network (ANN) to capture non-linear patterns  [![Notebook](https://img.shields.io/badge/Notebook-ANN%20Model-blue)](https://github.com/seoyeon3/Breast-Cancer-Classification/blob/main/model2_ANN.ipynb)
-6. Trained and compared XGBoost, selecting it as the final model 
+5. Developed an Artificial Neural Network (ANN) to capture non-linear patterns  [![Notebook](https://img.shields.io/badge/Notebook-ANN%20-blue)](https://github.com/seoyeon3/Breast-Cancer-Classification/blob/main/model2_ANN.ipynb)
+6. Trained and compared XGBoost, selecting it as the final model [![Notebook](https://img.shields.io/badge/Notebook-XGBoost%20-blue)](https://github.com/seoyeon3/Breast-Cancer-Classification/blob/main/xgboost.ipynb)
 7. Deployed the selected model via a Streamlit application for real-time prediction
 
 ## Key Results
